@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #18181F;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+.header {
+	margin-bottom: 40px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav a{
+	color: #fff;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.main {
+	background: #292931;
+	padding: 40px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.titulo {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.subtitulo {
+	color: rgba(255,255,255,.5);
+}
+
+.banderas button {
+	border: none;
+	cursor: pointer;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	width: 30px;
+	margin-left: 10px;
+}
+
+.banderas button img {
+	width: 100%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	margin-top: 40px;
+}
+
+.grid div {
+	width: 100%;
+	background: #000;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.grid div img {
+	width: 100%;
+}
